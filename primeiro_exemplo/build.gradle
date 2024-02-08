@@ -5,5 +5,5 @@ repositories{
     mavenCentral()
 }
 application{
-    mainClassName = 'primeiro_exemplo.Ola.java'
+    mainClassName = 'primeiro_exemplo.Ola'
 }
