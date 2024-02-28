@@ -10,5 +10,10 @@ public class PessoaFisica extends Pessoa{
     public int getIdade() {
         return this.idade;
     }
+
+    @Override //isto mostra que este método é uma sobrescrita de metodo que no caso é do método do pai (classe Pessoa)//
+    public void setNome(String nome){
+        this.nome = "PF: = " + nome;
+    }
   
 }
