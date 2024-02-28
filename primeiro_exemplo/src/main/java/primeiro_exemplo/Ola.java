@@ -8,7 +8,7 @@ public class Ola {
         System.out.println("Funciona!!!");
 
         Pessoa p1 = new Pessoa();
-        p1.setNome("Marco");
+        p1.setNome("Marco"); 
         System.out.println(p1.getNome());
 
 
